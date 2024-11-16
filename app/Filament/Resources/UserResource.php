@@ -61,7 +61,6 @@ class UserResource extends Resource
                     ->sortable(),
             ])
             ->filters([
-                // Tambahkan filter jika diperlukan
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
@@ -76,7 +75,6 @@ class UserResource extends Resource
     public static function getRelations(): array
     {
         return [
-            // Tambahkan relasi jika ada
         ];
     }
 
